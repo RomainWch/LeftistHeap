@@ -3,8 +3,8 @@ Require Import FunInd Recdef.
 Require Import Psatz.
 Require Import ZArith.
 From Equations Require Import Equations.
-From STAGE Require Import Definitions.
-From STAGE Require Import UsefulLemmas.
+From LEFTISTHEAP Require Import Definitions.
+From LEFTISTHEAP Require Import UsefulLemmas.
   
 (* Leftist *)
 Theorem leftistMerge : forall (a b : lheap), 

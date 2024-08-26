@@ -1,4 +1,4 @@
-From STAGE Require Import Definitions.
+From LEFTISTHEAP Require Import Definitions.
 Require Extraction.
 Extraction Language OCaml.
 Set Extraction Output Directory ".".

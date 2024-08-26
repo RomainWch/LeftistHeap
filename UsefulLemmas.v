@@ -3,7 +3,7 @@ Require Import FunInd Recdef.
 Require Import Psatz.
 Require Import ZArith.
 From Equations Require Import Equations.
-From STAGE Require Import Definitions.
+From LEFTISTHEAP Require Import Definitions.
 
 Lemma isLeftistChildA : forall {a b: lheap} {x r :nat}, 
 isLeftist (N a x r b) -> isLeftist a.
